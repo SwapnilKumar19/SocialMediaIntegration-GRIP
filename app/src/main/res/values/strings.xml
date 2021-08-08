@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Social Media Integration</string>
+    <string name="facebook_app_id">243700510784367</string>
+    <string name="fb_login_protocol_scheme">fb243700510784367</string>
+    <string name="log_out">Log out</string>
+    <string name="the_sparks_foundation">The Sparks Foundation</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="clicking_on_login_implies_you_are_accepting_our_terms_amp_conditions"><![CDATA[By clicking on login, you are accepting our privacy policy and terms & conditions.]]></string>
+    <string name="login_with_facebook">Login with Facebook</string>
+
+</resources>

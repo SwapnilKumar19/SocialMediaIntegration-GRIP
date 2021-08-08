@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/sparks_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tsf"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:text="@string/the_sparks_foundation" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_below="@id/sparks_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gmaillogin_button"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:paddingHorizontal="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableStart="@drawable/search"
+            android:text="@string/sign_in_with_google"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:background="@drawable/gmail_background_button"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_loginbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+        <!--<Button
+            android:id="@+id/fb_loginbutton"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableLeft="@drawable/fb_logo"
+            android:text="@string/login_with_facebook"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:background="@color/com_facebook_messenger_blue"
+            android:paddingStart="6dp"
+            android:paddingLeft="6dp"
+            android:layout_marginBottom="20dp" /> -->
+
+
+        <TextView
+            android:id="@+id/link_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:gravity="center_horizontal"
+            android:textSize="10sp"
+            android:maxLines="1"
+            android:text="@string/clicking_on_login_implies_you_are_accepting_our_terms_amp_conditions"
+            tools:ignore="SmallSp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
